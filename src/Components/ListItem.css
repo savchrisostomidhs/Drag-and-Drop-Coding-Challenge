@@ -1,0 +1,33 @@
+.list-item {
+  align-items: center;
+  background-color: hsl(198, 16%, 84%);
+  border-radius: 5px;
+  border: 2px solid hsla(0, 0%, 0%, 0.8);
+  display: flex;
+  flex: 1;
+  gap: 5px;
+  justify-content: center;
+  padding: 0 10px;
+  position: relative;
+  touch-action: none;
+  user-select: none;
+  width: 100%;
+}
+
+.list-item:hover {
+  cursor: grab;
+}
+
+.list-item:active {
+  cursor: grabbing;
+}
+
+.item-id {
+  left: 10px;
+  position: absolute;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+}
